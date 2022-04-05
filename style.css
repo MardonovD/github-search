@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  background-color: blue;
+  height: 60px;
+  width: 100vw;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  padding: 10px 100px;
+}
+
+.container {
+  width: 80vw;
+  border: 2px solid black;
+  border-radius: 5px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 50px 50px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+#input {
+  border-radius: 5px;
+  height: 60px;
+  font-size: 30px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+#input:focus {
+  box-shadow: rgba(56, 13, 212, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(73, 11, 243, 0.12) 0px 4px 6px,
+    rgba(63, 20, 218, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.default {
+  background-color: rgba(128, 128, 128, 0.226);
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 600;
+}
